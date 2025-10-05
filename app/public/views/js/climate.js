@@ -952,3 +952,4 @@ Humidity: [simple direction + locally expected value]
     }
 
     // Note: API key is not collected from UI; set OPENROUTER_API_KEY above.
+
