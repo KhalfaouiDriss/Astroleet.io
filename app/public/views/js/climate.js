@@ -5,7 +5,7 @@ let climateChart;
   appState.lastRadiusKm = 0;
   appState.lastAiRaw = '';
   // Configure your OpenRouter API key here. Keep it private.
-  const OPENROUTER_API_KEY = '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';
+  const OPENROUTER_API_KEY = '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';
   const API_PARAMS = 'PRECTOTCORR,T2M,RH2M';
   let API_START = '20170101';
   let API_END   = '20241201';
@@ -950,4 +950,5 @@ Humidity: [simple direction + locally expected value]
         }
       });
     }
+
     // Note: API key is not collected from UI; set OPENROUTER_API_KEY above.
